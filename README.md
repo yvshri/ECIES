@@ -1,9 +1,10 @@
 # ECIES
+ECIES.py contains the sage based implementation and ECIES5.py contains pure python based implementation.
 Python implementation for Elliptic Curve Integrated Encryption Scheme
 To run the code type in shell: python ECIES5.py
 (python version 2.7 used)
 
-To use the sage based implementation in sage shell: load("ECIES3.py")
+To use the sage based implementation in sage shell: load("ECIES.py")
 
 
 1. The elliptic curve used is chosen from Baretto-Naehrig class of curves which are pairing friendly curves. The prime used is of 160 bits. For point with prime order, we have chosen the generator for the curve.
